@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --main-color: #BA4A00;
+    --color: #232323;
+    --sec-color: white;
+}
+
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 10px 0;
+    background-color:#6E2C00;
+    margin-bottom: 50px;
+}
+
+.navdiv{
+    position: static;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logoparagraph{
+    font-family: "Pacifico", cursive;
+    color: white;
+    font-size: 30px;
+}
+
+.navlist{
+    display: inline-flex;
+    margin: 5px;
+    list-style: none;
+}
+
+.navitem a{
+    font-size: 23px;
+    color: var(--sec-color);
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    padding: 20px 50px;
+}
+
+.logo{
+    height: 70px;
+}
+
+.spantitle{
+    font-weight: 500;
+    color: #6E2C00;
+    font-size:28px
+}
+
+.spanparagraph{
+    font-weight: 900;
+    font-size: 20px
+}
+
+.coffeeImg{
+    margin-top: 40px;
+    width: 900px;
+}
+
+main{
+    max-width: 900px;
+}
+
+#home{
+    text-align: center;
+    padding: 0px 20px
+}
+
+.title{
+    color: var(--main-color);
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.paragraph{
+    padding: 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 80px;
+}
+
+.homeaboutus{
+    text-align: center;
+    justify-content: center;
+    background-color: #6E2C00;
+    width: 900px;
+    padding: 15px 15px 30px 15px;
+}
+
+.sectitle{
+    color: var(--sec-color);
+    font-family: "Pacifico", cursive;
+    font-weight: 500;
+    font-size: 28px;
+}
+
+.secparagraph{
+    padding: 15px 15px 40px 15px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--sec-color);
+}
+
+.teamimg{
+    width: 700px;
+}
